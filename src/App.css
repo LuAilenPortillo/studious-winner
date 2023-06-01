@@ -2,30 +2,47 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
+.Header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-.heart {
-  color: #ff0000;
-}
+
 
 .small {
   font-size: 0.75rem;
+}
+
+.parte-superior {
+  background-image: url("/workspaces/codespaces-react/public/item1.png");
+  height: 350px;
+  border-bottom: 3px;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.titulo-principal {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 80px;
+  list-style-type: none;
+}
+
+.sub-titulo {
+  text-align: center;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.texto-informativo {
+  text-align: left;
+  margin-left: 20px;
 }
